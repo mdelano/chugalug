@@ -1,0 +1,15 @@
+{
+  "name": "chugalug-lib",
+  "description": "Chugalug Core Library",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "bunyan": "0.22.1",
+    "elasticsearch": "^2.4.3",
+    "moment": "^2.8.3",
+    "sqs-queue-parallel": "^0.1.5"
+  },
+  "config": {
+    "unsafe-perm":true
+  }
+}

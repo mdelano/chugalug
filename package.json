@@ -1,0 +1,34 @@
+{
+  "name": "chugalug",
+  "version": "0.0.1",
+  "description": "MediaSilo event worker bot",
+  "main": "server.js",
+  "start": "node server.js",
+  "config": {
+    "unsafe-perm":true
+  },
+  "scripts": {
+    "postinstall": "npm install lib",
+    "postupdate": "npm install lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mediasilo/chugalug"
+  },
+  "author": "Mike Delano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mediasilo/chugalug/issues"
+  },
+  "homepage": "https://github.com/mediasilo/chugalug",
+  "dependencies": {
+    "bunyan": "0.22.1",
+    "bunyan-prettystream": "0.1.3",
+    "bunyan-syslog": "v0.2.2",
+    "elasticsearch": "^2.4.3",
+    "grunt": "^0.4.5",
+    "moment": "^2.8.3",
+    "restify": "^2.8.3"
+  },
+  "devDependencies": {}
+}
